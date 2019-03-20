@@ -1,0 +1,99 @@
+@import '../../variables';
+
+.master_header {
+	background-color: $background-color_2;
+	z-index: 130;
+	z-index: 1003;
+	position: relative;
+	border-style: solid;
+    &.master_transparent_header {
+        border: none;
+    }
+    &.google_map_list_header {
+        position: fixed;
+        top: 0px;
+        z-index: 101;
+    }
+}
+.no_header_dash {
+	.master_header {
+		display: none;
+	}
+}
+.admin-bar {
+    .master_header.google_map_list_header {
+        position: fixed;
+        top: 32px;
+        z-index: 100;
+    }
+}
+.master_header_wide_yes {
+	.top_bar {
+		width: 100%;
+	}
+}
+#access ul ul {
+    background-color: #680404;
+}
+
+#access .menu li ul li a,#access ul ul a,#access ul ul li.wpestate_megamenu_col_1 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_2 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_3 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_4 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_5 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_6 a.menu-item-link{
+    color: #ffffff!important;
+}#access ul ul a:hover,
+    #access .menu .sub-menu li:hover>a,
+    #access .menu .sub-menu li:hover>a:active, 
+    #access .menu .sub-menu li:hover>a:focus,
+    #access .sub-menu .current-menu-item > a,
+    #access .with-megamenu .sub-menu .current-menu-item > a{
+     color:#a5a5a5!important;
+}#access ul.menu >li>a{
+     font-size:16px;
+}#access ul ul a,#access ul ul li.wpestate_megamenu_col_1 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_2 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_3 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_4 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_5 a.menu-item-link, #access ul ul li.wpestate_megamenu_col_6 a.menu-item-link {
+         font-size:14px;
+    }
+#access ul ul{
+    background-color: #680404;
+}
+#access ul ul:after{
+    border-bottom: 13px solid #680404;
+}
+.hover_type_3 #access .menu > li:hover>a,
+.hover_type_4 #access .menu > li:hover>a {
+    background: #ededed!important;
+}
+
+#access ul.menu >li>a:hover,
+#access ul.menu >li>a:focus{
+    color: #4d5567;
+}
+.hover_type_5 #access .menu > li:hover>a {
+    border-bottom: 3px solid #ededed;
+}
+.hover_type_6 #access .menu > li:hover>a {
+  border: 2px solid #ededed;
+}
+.hover_type_2 #access .menu > li:hover>a:before {
+    border-top: 3px solid #ededed;
+}  .header_wrapper.header_type2 .header_wrapper_inside,
+        .header_wrapper .header_type1 .header_wrapper_inside {
+            height:90px;
+    }
+
+    .header_type1 .menu > li{
+        height:90px;
+        line-height:44px;
+    }
+    
+    .hover_type_3 .header_type1 .menu > li,
+    .hover_type_5 .header_type1 .menu > li,
+    .hover_type_6 .header_type1 .menu > li{
+        height:90px;
+        line-height:44px;
+    }
+
+    .header_type1 #access ul li:hover > ul,
+    .header_wrapper.header_type2 #user_menu_open,
+    .social_share_wrapper,
+    .hover_type_4 #access ul li:hover > ul,
+    #access ul li:hover > ul{
+        top: 81px;
+    }

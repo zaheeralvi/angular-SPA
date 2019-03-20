@@ -1,0 +1,34 @@
+/* largest for Normal desktop devices */
+$break-largeest: "only screen and (min-width : 1280px)";
+
+/* large for desktop devices */
+$break-xxxlarge: "all and (min-width: 1160px) and (max-width: 1280px)";
+$break-xxxlarge2: "all and (max-width : 1160px)";
+$break-xxxlargeUp: "all and (min-width : 1160px)";
+
+/* large for desktop devices */
+$break-xxlargeUp: "all and (min-width: 960px)";
+$break-xxlarge: "all and (min-width: 960px) and (max-width: 1024px)";
+$break-xxlarge2: "all and (max-width : 1024px)";
+
+/* 768px for Iphone 6+ landscape, 1024px for desktop devices and tablets landscape */
+$break-xlargeUp: "all and (min-width: 768px)";
+$break-xlarge: "all and (min-width: 768px) and (max-width: 800px)";
+
+$break-xlarge2: "all and (max-width: 800px)";
+
+/* 640px for Samsung Landscape, 667px for Iphone 6 Landscape */
+$break-largeUp: "all and (min-width: 640px)";
+$break-large: "all and (min-width: 640px) and (max-width: 667px)";
+$break-large2: "all and (max-width: 667px)";
+
+/* 540px for Iphone 6+, 568px for iphone 5 Landscape */
+$break-medium: "all and (min-width: 540px) and (max-width: 568px)";
+
+$break-medium2: "all and (max-width: 568px)";
+
+/* 400px Samsung Note, 480px for Iphone 4 */
+$break-small: "all and (min-width: 400px) and (max-width: 480px)";
+
+/* 320px for iphone 4, 375px for Iphone 6 */
+$break-little: "all and (min-width: 320px) and (max-width: 375px)";
